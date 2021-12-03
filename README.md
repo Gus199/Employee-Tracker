@@ -29,11 +29,11 @@ As a business owner I want to be able to view and manage the departments, roles,
  # Licence
 
  # Screenshots:
- * ![Screenshoot1]()
- * ![Screenshoot1](images/img1)
- * ![Screenshoot1](images/img1)
- * ![Screenshoot1](images/img1)
- * ![Screenshoot1](images/img1)
+ * ![Screenshoot1](images/img1.png)
+ * ![Screenshoot1](images/img2.png)
+ * ![Screenshoot1](images/img3.png)
+ * ![Screenshoot1](images/img4.png)
+ * ![Screenshoot1](images/img5.png)
 
  # Project Demo Video
 
