@@ -1,37 +1,9 @@
-//DEPENDENCIES ==================================
-const express =require('express');
+// const express =require('express');
 const mysql = require("mysql2");
 const inquirer = require("inquirer");
 
 const db = require('./config/connection')
 
-//CONNECTING TO OUR DB =====================================================================
-// const connection = mysql.createConnection({
-//     host: "localhost",
-
-//     // Your port; if not 3306
-//     port: 3306,
-
-//     // Your username
-//     user: "root",
-
-//     // Your password
-//     password: "rootpass",
-//     database: "employees"
-// });
-
-// Initiate MySQL Connection=================================================================
-// connection.connect(function(err) {
-//     if (err) {
-//         console.error("error connecting: " + err.stack);
-//         return;
-//     }
-//     console.log("connected as id " + connection.threadId);
-// });
-
-//RUN THE CODE===============================================================================
-
-// console.log("hey!")
 
 //Run the App
 function init() {
@@ -41,25 +13,25 @@ function init() {
             type: "list",
             message: "What would you like to do?",
             choices: [
-                "View All Employees", //++ *
-                "View All Departments", //++ *
-                "View All Roles", //++ *
-                "Search for Employee", //++ *
-                "Search for Employees by Manager", //++ *
-                "Remove Employee", // ++*
-                "Remove Department", //++*
-                "Remove Role", //+++*
-                "Add Employee", //++ *
-                "Add Department", //++*
-                "Add Role", //++*
-                "Update Employee Role", //++*
-                "Update Employee Manager", // ++*
-                "Calculate Payroll", //+++
-                "exit" //
+                "View All Employees", 
+                "View All Departments", 
+                "View All Roles", 
+                "Search for Employee", 
+                "Search for Employees by Manager", 
+                "Remove Employee", 
+                "Remove Department",
+                "Remove Role", 
+                "Add Employee", 
+                "Add Department",
+                "Add Role",
+                "Update Employee Role",
+                "Update Employee Manager", 
+                "Calculate Payroll",
+                "exit" 
             ]
         })
         .then(function(answer) {
-            // console.log("hey!")
+            
             switch (answer.action) {
                 case "View All Employees":
                     employeeAll();
@@ -114,10 +86,6 @@ function init() {
                     updateManager();
                     break;
 
-                    // case "Calculate Payroll":
-                    //     budgetSum();
-                    //     break;
-
                 case "exit":
                     connection.end();
                     break;
@@ -126,8 +94,7 @@ function init() {
 }
 
 
-// OUR CODE TO MAKE THE APP FUNCTION================================================================================================================
-
+// OUR CODE TO MAKE THE APP FUNCTION
 // employeeAll() function to see all employee info
 
 function employeeAll() {
@@ -183,7 +150,7 @@ function employee() {
         })
 }
 
-// // Sort employees by manager then init();
+ // Sort employees by manager then init();
 function employeeManager() {
     inquirer
         .prompt({
@@ -201,7 +168,7 @@ function employeeManager() {
         })
 }
 
-// //Call deleteEmployee(); to delete employee
+//Call deleteEmployee(); to delete employee
 
 function deleteEmployee() {
     inquirer
@@ -224,7 +191,7 @@ function deleteEmployee() {
         })
 }
 
-// init();
+
 // //Call deleteDept(); to delete department
 
 function deleteDept() {
@@ -395,7 +362,5 @@ function updateManager() {
 }
 
 
-
-// //Call budgetSum(); to view total sum of employee salaries
 
 init();
