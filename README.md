@@ -18,6 +18,10 @@ Content Management System, this app can add or remove employees, departments, an
    `npm i inquirer`
    `npm i mysql`
    `npm i sql`
+   `npm i mysql2`
+   `npm i chalk`
+   `npm i console.table`
+   `npm i figlet`
 
 # Contributing 
 A work in progress. And the possibilities are endless.
