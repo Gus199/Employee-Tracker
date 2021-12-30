@@ -26,7 +26,7 @@ Please feel free to submit any code updates for review and acceptance.
 
 # User-Story
 As a business owner I want to be able to view and manage the departments, roles, and employees in my company So that I can organize and plan my business
- # Licence
+ # Licensese 
  * [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  # Screenshots:
  * ![Screenshoot1](images/img1.png)
