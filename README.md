@@ -13,11 +13,11 @@
 # Description
 Content Management System, this app can add or remove employees, departments, and roles etc. The app used MySQL to store all the data.
 # Installations
-``` express
-   npm init -y
-   npm i inquirer
-   npm i mysql
-   npm i sql```
+` express`
+   `npm init -y`
+   `npm i inquirer`
+   `npm i mysql`
+   `npm i sql`
 
 # Contributing 
 A work in progress. And the possibilities are endless.
