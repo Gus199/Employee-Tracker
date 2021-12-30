@@ -13,12 +13,13 @@
 # Description
 Content Management System, this app can add or remove employees, departments, and roles etc. The app used MySQL to store all the data.
 # Installations
-* express
-* npm init -y
-* npm i inquirer
-* npm i mysql
-* npm i sql
-# Contributing
+``` express
+   npm init -y
+   npm i inquirer
+   npm i mysql
+   npm i sql```
+
+# Contributing 
 A work in progress. And the possibilities are endless.
 Please feel free to submit any code updates for review and acceptance.
 
@@ -29,14 +30,14 @@ As a business owner I want to be able to view and manage the departments, roles,
  # Licensese 
  * [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
  # Screenshots:
- * ![Screenshoot1](images/img1.png)
- * ![Screenshoot1](images/img2.png)
- * ![Screenshoot1](images/img3.png)
- * ![Screenshoot1](images/img4.png)
- * ![Screenshoot1](images/img5.png)
+ * ![Screenshoot1](images/image1.png)
+ * ![Screenshoot1](images/image2.png)
+ * ![Screenshoot1](images/image3.png)
+ * ![Screenshoot1](images/image4.png)
+ * ![Screenshoot1](images/image5.png)
 
  # Project Demo Video
- * ![Demo](https://watch.screencastify.com/v/0RMuX6LEZItMIC17jc4E)
+ * [Demo](https://watch.screencastify.com/v/0RMuX6LEZItMIC17jc4E)
  # Questions
  please feel free to ask me any questions.
 
